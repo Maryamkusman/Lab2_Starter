@@ -74,12 +74,15 @@
           rows="6" cols="33">
 The meeting was....
 </textarea>
-    <p> choose a language you would like to use</p>
-<datalist id="languages">
+   <label for="language">Choose a flavor:</label>
+<input list="language" id="language" name="language">
+
+<datalist id="language">
     <option value="Javascript">
     <option value="CSS">
     <option value="HTML">
 </datalist>
+
 <select name="fav group member" id="memvers">
     <option value="">--Select your favorite group member--</option>
     <option value="bob">BOB</option>
